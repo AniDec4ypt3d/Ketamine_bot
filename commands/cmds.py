@@ -1,14 +1,15 @@
 import asyncio
+from ..core import tgbot , client
+from ..database.redis import antidb
+import time
+print("cmds started")
 
-from ..core import tgbot
-
-
-@tgbot.on_cmd("cmds")
+from telethon import events
+@tgbot.on(events.NewMessage(pattern=r"\/cmds"))
 async def _(event):
-    msg = await event.reply("Collections coming")
-    asyncio.sleep(2)
+    msg = await event.reply("Fetching")
     await msg.edit(f"""
-<b>XTRA CMDS | TELETHON PWD</b>
+<b>XTRA 2.1 | TELETHON XD</b>
 
-Coming af
+soon
 """,parse_mode="HTML")

@@ -3,6 +3,7 @@ from dotenv import load_dotenv
 from .core.session import tgbot
 from .core.logger import logging
 from . import handlers
+from . import commands
 
 load_dotenv()
 
