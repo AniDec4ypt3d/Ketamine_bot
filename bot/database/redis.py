@@ -1,2 +1,4 @@
 import redis
-antidb = redis.Redis(host='redis-15051.c93.us-east-1-3.ec2.cloud.redislabs.com', port=15051, password='HhzDqgZ2O2L62RGmOR93zoqM31Ytq2Ac')
+antidb = redis.Redis(host='reids', port=, password='', decode_responses = True)
+# redis_connector = redis.Redis(host=REDIS_URI, port=REDIS_PORT, password= REDIS_PASS if REDIS_PASS else None, db=0, decode_responses=False)
+# redis_session = RedisSession('mills', redis_connector)

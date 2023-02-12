@@ -1,12 +1,15 @@
-from dotenv import load_dotenv
 
-from .core.session import tgbot
+
+from .core.session import client 
 from .core.logger import logging
-from . import handlers, commands
-
-load_dotenv()
-
-LOGS = logging.getLogger("TgBot")
+from . import database
+from .plugins import checkers, commands
 
 
-tgbot.run_until_disconnected()
+
+LOGS = logging.getLogger("client")
+
+
+# tgbot.run_until_disconnected()
+client.run_until_disconnected()
+

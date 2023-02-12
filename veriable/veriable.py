@@ -1,0 +1,9 @@
+LOG_CHAT = 
+ADMINS = [5640958137,5083909240]
+REDIS_URL = ""
+REDIS_PORT = 
+REDIS_PASS = ''
+HANDLERS = ["/","?",".","!"]
+API_ID = ""
+API_HASH = ""
+BOT_TOKEN = ""

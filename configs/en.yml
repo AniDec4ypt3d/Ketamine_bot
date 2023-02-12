@@ -1,0 +1,50 @@
+card_chk:
+  start: |
+    <b>⎈ 𝑷𝒍𝒆𝒂𝒔𝒆 𝑾𝒂𝒊𝒕 ⎈
+    ⎈ 𝑮𝒂𝒕𝒆𝒘𝒂𝒚 ⪢</b> <code>{gate_name}</code>
+    <b>⎈ 𝑷𝒓𝒐𝒈𝒓𝒆𝒔𝒔 ⪢</b> <code>◯◯◯◯◯◯◯◯ 0%</code>
+    <b>⎈ 𝑻𝒐𝒐𝒌  ⪢</b> <code>{taken}s</code>
+  mid: |
+    <b>⎈ 𝑷𝒍𝒆𝒂𝒔𝒆 𝑾𝒂𝒊𝒕 ⎈
+    ⎈ 𝑮𝒂𝒕𝒆𝒘𝒂𝒚 ⪢</b> <code>{gate_name}</code>
+    <b>⎈ 𝑷𝒓𝒐𝒈𝒓𝒆𝒔𝒔 ⪢</b> <code>⬤⬤◯◯◯◯◯ 30%</code>
+    <b>⎈ 𝑻𝒐𝒐𝒌  ⪢</b> <code>{taken}s</code>
+  semi: |
+    <b>⎈ 𝑷𝒍𝒆𝒂𝒔𝒆 𝑾𝒂𝒊𝒕 ⎈
+    ⎈ 𝑮𝒂𝒕𝒆𝒘𝒂𝒚 ⪢</b> <code>{gate_name}</code>
+    <b>⎈ 𝑷𝒓𝒐𝒈𝒓𝒆𝒔𝒔 ⪢</b> <code>⬤⬤⬤◯◯◯ 60%</code>
+    <b>⎈ 𝑻𝒐𝒐𝒌  ⪢</b> <code>{taken}s</code>
+  semi_final: |
+    <b>⎈ 𝑷𝒍𝒆𝒂𝒔𝒆 𝑾𝒂𝒊𝒕 ⎈
+    ⎈ 𝑮𝒂𝒕𝒆𝒘𝒂𝒚 ⪢</b> <code>{gate_name}</code>
+    <b>⎈ 𝑷𝒓𝒐𝒈𝒓𝒆𝒔𝒔 ⪢</b> <code>⬤⬤⬤⬤⬤⬤⬤◯ 90%</code>
+    <b>⎈ 𝑻𝒐𝒐𝒌  ⪢</b> <code>{taken}s</code>
+  final: |
+    <b>⎈ 𝑪𝒂𝒓𝒅 ⪢</b> <code>{lista}</code>
+    <b>⎈ 𝑺𝒕𝒂𝒕𝒖𝒔 ⪢</b> <code>{status} {logo}</code>
+
+    <b>⎈ 𝑹𝒆𝒔𝒑𝒐𝒏𝒔𝒆 ⪢</b> <code>{respo}</code>
+    <b>⎈ 𝑩𝒊𝒏 𝑫𝒂𝒕𝒂 ⪢</b> <code>{vendor} - {type} - {country} - {flag}</code>
+    <b>⎈ 𝑩𝒂𝒏𝒌 𝑫𝒂𝒕𝒂 ⪢</b> <code>{bank_name}</code>
+
+    <b>⎈ 𝑮𝒂𝒕𝒆𝒘𝒂𝒚 ⪢</b> <code>{gate_name}</code>
+    <b>⎈ 𝑻𝒐𝒐𝒌  ⪢</b> <code>{taken}s</code>
+    <b>⎈ 𝑪𝒉𝒆𝒄𝒌𝒆𝒅 𝑩𝒚  ⪢</b> <a href="tg://user?id={id}">{name}</a> <code>[{role}]</code>
+    <b>⎈ 𝘽𝙤𝙩 𝘽𝙮  ⪢</b> <a href="https://t.me/anidec4ypt3d">hidden</a>
+  sp_final: |
+    <b>⎈ 𝑪𝒂𝒓𝒅 ⪢</b> <code>{lista}</code>
+    <b>⎈ 𝑺𝒕𝒂𝒕𝒖𝒔 ⪢</b> <code>{status} {logo}</code>
+    <b>⎈ 𝑪𝑽𝑽 ⪢</b> <code>{cvvs}</code> | <b>𝑨𝑽𝑺 ⪢</b> <code>{avs}</code>
+
+    <b>⎈ 𝑹𝒆𝒔𝒑𝒐𝒏𝒔𝒆 ⪢</b> <code>{respo}</code>
+    <b>⎈ 𝑩𝒊𝒏 𝑫𝒂𝒕𝒂 ⪢</b> <code>{vendor} - {type} - {country} - {flag}</code>
+    <b>⎈ 𝑩𝒂𝒏𝒌 𝑫𝒂𝒕𝒂 ⪢</b> <code>{bank_name}</code>
+
+    <b>⎈ 𝑮𝒂𝒕𝒆𝒘𝒂𝒚 ⪢</b> <code>{gate_name}</code>
+    <b>⎈ 𝑻𝒐𝒐𝒌  ⪢</b> <code>{taken}s</code>
+    <b>⎈ 𝑪𝒉𝒆𝒄𝒌𝒆𝒅 𝑩𝒚  ⪢</b> <a href="tg://user?id={id}">{name}</a> <code>[{role}]</code>
+    <b>⎈ 𝘽𝙤𝙩 𝘽𝙮  ⪢</b> <a href="https://t.me/anidec4ypt3d">hidden</a>
+
+
+  antispam: |
+     <b> AntiSpam try again after {time_left}'s</b>
